@@ -46,7 +46,7 @@
 		}
 	@end-include
 */
-var gitSwitch = function gitExists( repositoryDirectory, callback ){
+var gitSwitch = function gitSwitch( branchName, repositoryDirectory, callback ){
 	/*:
 		@meta-configuration:
 			{
